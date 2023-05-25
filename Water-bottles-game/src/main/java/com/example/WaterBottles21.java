@@ -64,7 +64,7 @@ public class WaterBottles21 {
        			 if (bottles - pick1 <= 5) {
            		 pick2 = bottles - 1;
         		}
-       			 return -1;
+       			 return pick2;
 	                //YOUR CODE ENDS HERE
 	}
 	 
