@@ -51,8 +51,8 @@ public class WaterBottles21 {
                		 return pick;
            		 } else {
               		  printStream.println("As per the Game Rules, please pick up bottles between 1 and 4 only, both inclusive");
-            }
-        }
+            		}
+        		}
                         return -1;
 	                //YOUR CODE ENDS HERE	
 	 }
@@ -64,7 +64,7 @@ public class WaterBottles21 {
        			 if (bottles - pick1 <= 5) {
            		 pick2 = bottles - 1;
         		}
-       			 return pick2;
+       			 return -1;
                       
 	                //YOUR CODE ENDS HERE
 	}
