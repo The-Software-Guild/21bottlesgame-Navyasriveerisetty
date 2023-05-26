@@ -60,11 +60,7 @@ public class WaterBottles21 {
 	 
 	public int pickAfterUser(int pick1) {
 			//YOUR CODE STARTS HERE
-			int pick2 = 5 - pick1;
-       			 if (bottles - pick1 <= 5) {
-           		 pick2 = bottles - 1;
-        		}
-       			 return pick2;
+			return -1;
 	                //YOUR CODE ENDS HERE
 	}
 	 
